@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>알람 브리핑</title>
+<meta name="description" content="무음 모드에서도 울리는 알람과, 폰을 켜지 않고 듣는 아침 브리핑">
+<meta property="og:title" content="알람 브리핑">
+<meta property="og:description" content="무음 모드에서도 울리는 알람과, 폰을 켜지 않고 듣는 아침 브리핑">
+<meta property="og:image" content="icon.png">
+<link rel="stylesheet" href="_style.css">
+<style>
+.hero{display:flex;gap:24px;align-items:center;margin:34px 0 10px;flex-wrap:wrap}
+.hero img{width:104px;height:104px;border-radius:23.5%;box-shadow:0 10px 26px rgba(0,0,0,.5)}
+.hero h1{margin:0 0 8px}
+.tagline{font-size:17px;color:var(--text2);margin:0}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:30px 0}
+@media(max-width:560px){.feat{grid-template-columns:1fr}}
+.feat .card{margin:0}
+.feat b{display:block;margin-bottom:5px}
+.feat p{font-size:14.5px;margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="brand">
+  <a href="./"><span class="ko">알람 브리핑</span><span class="en">Alarm Briefing</span></a>
+</header>
+
+<div class="hero">
+  <img src="icon.png" alt="알람 브리핑 아이콘">
+  <div>
+    <h1>안 울릴 리 없는 알람,<br>그리고 오늘 아침</h1>
+    <p class="tagline">눈 뜨자마자, 폰을 켜지 않고 듣습니다</p>
+  </div>
+</div>
+
+<div class="feat">
+  <div class="card"><b>무음 모드에서도 울립니다</b><p>iOS 26 의 AlarmKit 을 씁니다. 기본 시계 앱과 같은 방식이라 안 울릴 일이 없습니다.</p></div>
+  <div class="card"><b>폰을 켜지 않고 듣습니다</b><p>잠금화면에서 버튼 하나면 오늘 날씨와 일정을 읽어줍니다. 앱이 열리지 않습니다.</p></div>
+  <div class="card"><b>하늘빛이 시간에 맞춰 바뀝니다</b><p>실제 일출·일몰 시각에 따라 배경이 하루 여섯 단계로 변합니다.</p></div>
+  <div class="card"><b>알람 기능은 전부 무료입니다</b><p>개수·1분 단위·반복 전부 무료입니다. 유료는 브리핑 소스에만 붙습니다.</p></div>
+</div>
+
+<div class="card">
+<p><b>서버가 없습니다.</b> 계정도 없고, 앱이 만든 데이터는 기기를 떠나지 않습니다. 일정을 읽어주는 기능을 켜도 그 내용이 어디로도 전송되지 않습니다.</p>
+</div>
+
+<h2>도움이 필요하면</h2>
+<p>사용 중 생긴 문제는 <a href="support.html">지원 페이지</a>에 정리돼 있습니다. 거기서 해결되지 않으면 <a href="mailto:kdhmonkeyd@gmail.com">kdhmonkeyd@gmail.com</a> 으로 알려주세요.</p>
+
+<footer>
+  <a href="support.html">지원</a><a href="privacy.html">개인정보 처리방침</a><a href="mailto:kdhmonkeyd@gmail.com">문의</a>
+  <p style="margin-top:12px">알람 브리핑 · 김대현</p>
+</footer>
+</div>
+</body></html>
